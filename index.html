@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Apps on Google Play</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://camo.githubusercontent.com/76d3c811f02f474a0e5aeab7ed1895dadb50cb237a73d6b1d9a7f211f8f5f943/68747470733a2f2f692e696d6775722e636f6d2f526a31497359492e706e67">
+</head>
+<body>
+    <header class="header1">
+        <a href="index.html"><img class="Gpicon" src="Gplogoo.png" alt="-Google Play-"></a> 
+        <div class="Sdiv"><input class="searchbox" type="text" placeholder="Search">
+            <button class="Sbut"><i class="fas fa-search searchicon"></i></button>
+        </div>
+        <i class="fas fa-th cube1"></i>
+        <div class="profilelogo"><h3>J</h3></div>
+
+    </header>
+
+    <header class="header2">
+        <div>
+            <div class="header_2_Apps"><i class="fas fa-th-large  box_4"></i>  Apps</div>
+            <div class="header_2_Category">  Categories⌄</div>
+            <div class="header_2_home">Home</div>
+            <div class="header_2_home">Top charts</div>
+            <div class="header_2_home">New releases</div>
+
+            <button class="message_but" >
+                <i class="fas fa-comment-medical "></i>
+            </button>
+            <button class="header_2_settings"><i class="fas fa-cog  "></i></button>
+        </div>
+        
+    </header>
+    <section>
+        <div class="contents">
+            <div class="arrows">⌄</div>
+            <div class="content_items">
+                <div class="myapps">My Apps</div>
+                <div class="myapps">Shop</div>
+                <div style="width: 150px; margin-left: 20px;"><hr></div>
+
+                <div class="myGames">Games</div>
+                <div class="myGames">Kids</div>
+                <div class="myGames">Editors' Choise</div>
+            </div>
+            <div>
+                <div class="payment_method">Account</div>
+                <div class="payment_method">Payment method</div>
+                <div class="payment_method">My subscriptions</div>
+                <div class="payment_method">Redeem</div>
+                <div class="payment_method">Buy gift card</div>
+                <div class="payment_method">My wishlist</div>
+                <div class="payment_method">My Play activity</div>
+                <div class="payment_method">Parent Guide</div>
+            </div>
+
+        </div>
+    </section>
+                                                <!-- Recommended for you  -->
+    <section>
+        <div class="body_section">
+            <section>
+                <div class="body_section_topic">
+                <h2>Recommended for you</h2>
+               <a href="Recommended apps.html"><button class="see_more" >See more</button></a> 
+                </div>
+                
+                <div class="applications_row">
+                    <div class="applications">
+                    <div class="application_photo">
+                        <img class="application_logo" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="">
+                    </div>
+                    <a class="app_link" href="#"><h3 class="app_name">WhatsApp Mess</h3></a> 
+                    <a class="app_link" href="#"><h3 class="app_sub_name">WhatsApp LLC</h3></a> 
+                    <div class="star">
+                        <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                    </div>
+                    
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/h9jWMwqb-h9hjP4THqrJ50eIwPekjv7QPmTpA85gFQ10PjV02CoGAcYLLptqd19Sa1iJ" alt="">
+                        </div>
+                        <a class="app_link" href="#"><h3 class="app_name">Instagram</h3></a> 
+                        <a class="app_link" href="#"><h3 class="app_sub_name">Instagram</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="data:image/png;base64,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" alt="">
+                        </div>
+                        <a class="app_link" href="#"><h3 class="app_name">Snapchat</h3></a> 
+                        <a class="app_link" href="#"><h3 class="app_sub_name">Snap Inc</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star blank_star"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/Vd6XKGvZKp8r3Ikz4vRykNJaMjFULqftsqviOsMPepYTOu4ef-4HkUo3iEcPpOi4c2s" alt="">
+                        </div>
+                        <a class="app_link" href="#"><h3 class="app_name">Hotstar</h3></a> 
+                        <a class="app_link" href="#"><h3 class="app_sub_name">Novi Digital</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star blank_star"></i>
+                        </div>
+                        
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://lh3.googleusercontent.com/A2WoYTiyROKKYM3eZ3q0NVRbNEZeYrWroqNZI2yYrsJ7UXmoFp1Nt37aZu-AbBbIqw" alt="">
+                        </div>
+                        <a class="app_link" href="#"><h3 class="app_name">Subway surf</h3></a> 
+                        <a class="app_link" href="#"><h3 class="app_sub_name">SYBO Games</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/ldcQMpP7OaVmglCF6kGas9cY_K0PsJzSSosx2saw9KF1m3RHaEXpH_9mwBWaYnkmctk" alt="">
+                        </div>
+                        <a class="app_link" href="#"><h3 class="app_name">Messenger-text,</h3></a> 
+                        <a class="app_link" href="#"><h3 class="app_sub_name">Facebook</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/cw0x8EiZYDwL6x4XKKXDmfQsFDYKO4Q6xIfiyPOvgIjHCpe41QAM_rl4y0dLu0SJOdM" alt="">
+                        </div>
+                        <a class="app_link" href="#"><h3 class="app_name">Free Fire</h3></a> 
+                        <a class="app_link" href="#"><h3 class="app_sub_name">GARENA INTERNATION.</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/JRd05pyBH41qjgsJuWduRJpDeZG0Hnb0yjf2nWqO7VaGKL10-G5UIygxED-WNOc3pg" alt="">
+                        </div>
+                        <a class="app_link" href="#"><h3 class="app_name">Battlegrounds M</h3></a> 
+                        <a class="app_link" href="#"><h3 class="app_sub_name">KRAFTON,Inc.</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    
+                    
+                </div>
+
+
+                                                                <!-- Popular apps and games -->
+
+
+                <div class="body_section_topic">
+                    <h2>Popular apps & games</h2>
+                    <a href="Popular apps.html"><button class="see_more">See more</button></a>
+                    </div>
+
+                <div class="applications_row">
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/V1lb4J811SNh6hlGqNlDnGZXfdtI2i-1dC7_i9TnViyiboZ2RHp8xbhKbbECG-f26is" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">ZOOM Cloud M </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Zoom.us </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Spotify:Music</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Spotify AB </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/EhIjbN-_7eOO6XbcXAosX7elY-9CRxCOm5J6rLZ3pQGF7Yev6Av2kFdbxMH_RV2Hhnc" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Shazam:Discover </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Apple,Inc</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/TLUeelx8wcpEzf3hoqeLxPs3ai1tdGtAZTIFkNqy3gbDp1NPpNFTOzSFJDvZ9narFS0" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Candy crush Sa </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">King </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://pbs.twimg.com/profile_images/1329113828731146242/FzxBBPrs.jpg" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Google Pay:Sec</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Google LLC</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/5pZMqQYClc5McEjaISPkvhF8pDmlbLqraTMwk1eeqTlnUSjVxPCq-MItIrJPJGe7xW4" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Facebook Lite </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Facebook </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                   
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/neJH-xq-145ZTnPZN_SD7VEuABVOqqhQ4-wxyphHSVUKHqkTGLqjocFOYoQMQahiWohv" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Sniper 3D:Gun S</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Fun Games For Free</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/onlNBInQHIZtB2rY24BwrEsUUKwE753ao1BAvvhOw2ePEN1IHIUjaR3gvlGd3jyKTdg" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Temple Run</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Imangi Studios </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+
+
+                                                    <!-- Communication -->
+
+                <div class="body_section_topic">
+                    <h2>Communication</h2>
+                    <button class="see_more">See more</button>
+                    </div>
+
+                <div class="applications_row">
+                    
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/nn_U3vONiACS6blzpxXPhIDRDsyE97cozJj0bXfgxCUFStnEhZ28r2F1Lm5Z8PAfZqM" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Truecaller:Caller </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Truecaller </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Telegram </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Telegram FZ-LLC </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/0IdG4GLN7T73OrfRWwb3M1dyuFPmuAftPepnHS6p8qoTGvXXeHKHQY54-B8OXEbAZGI" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">imo video calls an </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">imo.im </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/KwGCiEolNEeR9Q4RFOnDtb8Pvqs3LNiQEdE07wMCnoULO3yLUprHbGGLBYNEt8k7WJY" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">KaKao Talk:Free </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">kakao Corporation </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/GBYSf20osBl2CRHbjGOyaOG5kQ3G4xbRau-dzScU9ozuXQJtnUZPkR3IqEDOo5OiVgU" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Google Meet </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Google LLC </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/D-haUsSx771Pt4brCyFEJUNKZaC8NUsD2bMB-ZL_yE2LnYdmt3YbgfZwDDM9B-wBHw" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Contacts </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Google LLC </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/5hqcg29p7TkwDWchqG41kMDgoa_IXSUgt9ilfft3ZF2scKW_9Jz5511HPAAqVbVKRQ" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Skype for Bussin</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Microsoft Corporation </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/74iMObG1vsR3Kfm82RjERFhf99QFMNIY211oMvN636_gULghbRBMjpVFTjOK36oxCbs" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">LINE: Free Calls</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">LINE Corporation </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+
+                    </div>
+                    
+                </div>
+
+
+
+
+                                                            <!-- Editor's Choise -->
+
+                <div class="body_section_topic">
+                    <h2>Editors' Choice apps </h2>
+                    <button class="see_more">See more</button>
+                </div>
+
+                <div class="applications_row">
+                    
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Netflix</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Netflix, Inc </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/dVsv8Hc4TOUeLFAahxR8KANg22W9dj2jBsTW1VHv3CV-5NCZjP9D9i2j5IpfVx2NTB8" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Pinterest </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Pinterest </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/mn_8bXJbRJdE4BJlBjx66MvpT5ZH4Re7vsf8wtVCVaoyo2cuZ80c7FVdWMoECazGVQ" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Zomato-Online F </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Zomato </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/MMBG4AZmpMhSfhF5k7QnFmhvFbaF5ZC_BtEOIKRt9TIkUZjul2lWwPZV75PwTfoSm23-jgMxkroRGA-vkDg" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Uber Eats:Food </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Uber Technologies</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/Mxu4YhAr45fbX_iBwi4LiRuSDn9G8R-C_i6PF4Oqys6TqQab2Jl7U5w4WGDtoPwhpTk" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Home Workout- </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Leap Fitness Group </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/nPnJc260PPoupBe-DcVQ-MNr6149dphdEoEAN-C9xwgctpVXbwsuyon_jEZ3uPWWYQ" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">VLC for Android </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Videolabs</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/48wwD4kfFSStoxwuwCIu6RdM2IeZmZKfb1ZeQkga0qEf1JKsiD-hK3Qf8qvxHL09lQ" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Amazone Kindle-</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">amazon Mobile LLC </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/k7yz57K2OxhNrPNKF2U18Zcv9rodOu7CfWh47U15FFUN8-_B0hQfXsM-BaLG0gOtvw" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Paytm -UPI,Money </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Paytm-One97 Community </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+
+                                                            <!-- Social Networking -->
+                <div class="body_section_topic">
+                    <h2>Social Networking </h2>
+                    <button class="see_more">See more</button>
+                </div>
+
+                <div class="applications_row">
+                    
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/5zWoJx0NdfgUiz-w9IMbZ1lAdohZ7qr-CiAXqjwGcMCgDsQVdq_VZUAgFpYpdg612p0" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Twitter</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Twitter, Inc. </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/ccWDU4A7fX1R24v-vvT480ySh26AYp97g1VrIB_FIdjRcuQB2JP2WdY7h_wVVAeSpg" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Facebook </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Facebook </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/Zmol9WVk6mjWE38P6wc3Aaz9mQn-VFhviKllLP4kiplfW4xIEjgYmKUalZcFsOOnDQ" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Telegram X</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Telegram FZ-LLC </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/8Vw-7MAm558750a4M55fiOlUf7lP2cYnFuqSWynrygIiyEEiQQDa_xxHKYOX83L0UD2T" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name"> Reddit</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">reddit Inc.</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/2FgK0PBW21nF8Nkp1j36BdOb5w7Df-Z1FJevfoD97JH7LTp0ZfacldQKJGpJeUl-qg" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Quora - Ask Ques </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name"></h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/QDUk6uto4qZEegtnjA36cI4LSGzYO1u-5ANJP69qL4PeBlGMGdPVUpOEMtvJqopt5qw" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Koo: Connect with </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Koo India</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/6cZQT9BKwrR2xQNh2juyhz3nTf8jywW8cKQ7ZQp3XZOBmQavb1HlJNX_Ns4TlYzUfWnF" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Zili-Short Video</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Zili </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/h9jWMwqb-h9hjP4THqrJ50eIwPekjv7QPmTpA85gFQ10PjV02CoGAcYLLptqd19Sa1iJ" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Instagram</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Instagram </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                                                        <!-- Entertainment -->
+                <div class="body_section_topic">
+                    <h2>Entertainment</h2>
+                    <button class="see_more">See more</button>
+                </div>
+
+                <div class="applications_row">
+                    
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/S4wylkvt2jz16hnG9IG0pAZosbB82nWWy8P-rQkb54uH-SCVd5L2j7z7x1Vz5pZvIRc" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">YouTube Kids</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Google LLC</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/IqNQxWzyvknT0kradpcPPvZhC8sAfjng6-IO_TGCtIsn7JvD6hGnNUoH1OaIxb0x_48" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Gaana Music App </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Gamma ganna Ltd </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Spotify</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Spotify AB </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/8Vw-7MAm558750a4M55fiOlUf7lP2cYnFuqSWynrygIiyEEiQQDa_xxHKYOX83L0UD2T" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name"> Reddit</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">reddit Inc.</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/lA2g6-tGuf-xNa5jSEIK-rpKbctKHHL5YNhahCrgZkIDa5eahmnVbLBYH-S7nhoLDQ" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Talking Ginger 2</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Outfit Limited</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/QtxELma_6y1jezI8QKqVtI8Tb0flMhPjIAzU-VSZ2jz7RwriCENXQk4M6MvUyVi5qg" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">SonyLIV:Originals </h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Sony Pictures Networks</h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/6cZQT9BKwrR2xQNh2juyhz3nTf8jywW8cKQ7ZQp3XZOBmQavb1HlJNX_Ns4TlYzUfWnF" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Zili-Short Video</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Zili </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+                    </div>
+                    <div class="applications">
+                        <div class="application_photo">
+                            <img class="application_logo" src="https://play-lh.googleusercontent.com/72U_H12H2P0l8WqIKwpncgKELtNeLq1RdrnK8iXf__uzK4lHK16KJFfI48WvKPtfhCM" alt="">
+                        </div>
+                        <a href="" class="app_link"><h3 class="app_name">Roposo:Live Video</h3></a> 
+                        <a href="" class="app_link"><h3 class="app_sub_name">Roposo </h3></a> 
+                        <div class="star">
+                            <i class="fas fa-star rating_star1"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star rating_star2"></i><i class="fas fa-star-half  rating_star2"></i>
+                        </div>
+
+                    </div>
+                    
+                </div>
+    </section>
+    
+
+    <script src="https://kit.fontawesome.com/4f7f0e7aa6.js"></script>
+</body>
+</html>
